@@ -1,3 +1,9 @@
+clamdmon (1.0-1+hetz2~exp1) jessie-hetz-experimental; urgency=low
+
+  * Bump version
+
+ -- Walter Kleynscheldt <walter.kleynscheldt@hetzner.co.za>  Wed, 25 Nov 2015 13:48:40 +0200
+
 clamdmon (1.0-1+hetz1) jessie-hetz; urgency=low
 
   * Released 1.0-1+hetz1~exp10 as 1.0-1+hetz1
