@@ -1,0 +1,32 @@
+What's this
+===========
+
+    ClamdMon is a little program for checking ClamAV daemon health.
+ClamdMon send to clamd stream, which contain EICAR test signature.
+If virus found, ClamdMon will return 1, otherwise 0.
+It's time to verify database integrity or/and restart ClamAV daemon...
+
+Install
+=======
+
+Under the root account:
+
+make
+make install
+
+On default, ClamdMon will be installed in the /usr/local/sbin/
+If it run without any parameters, TCPSocket mode will be used.
+If you want to use LocalSocket mode of ClamAV daemon, run it
+in such form: clamdmon -p LocalSocket, where LocalSocket is path
+to socket from clamd.conf file.
+
+Don't forget to inspect and edit clamdmon.sh as you wish.
+Don't forget to add cron job for root like this:
+
+*/5 * * * * /usr/local/sbin/clamdmon.sh
+
+
+Any suggestions and bugs please send to <smfs@users.sourceforge.net>
+
+http://smfs.sourceforge.net
+
