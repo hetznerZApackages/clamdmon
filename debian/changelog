@@ -1,3 +1,9 @@
+clamdmon (1.0-1+hetz1~exp5) jessie-hetz-experimental; urgency=low
+
+  * Trying again
+
+ -- Walter Kleynscheldt <walter.kleynscheldt@hetzner.co.za>  Wed, 25 Nov 2015 12:11:21 +0200
+
 clamdmon (1.0-1+hetz1~exp4) jessie-hetz-experimental; urgency=low
 
   * Still trying to fix pathing issues
