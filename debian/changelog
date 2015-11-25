@@ -1,3 +1,9 @@
+clamdmon (1.0-1+hetz1~exp10) jessie-hetz-experimental; urgency=low
+
+  * Move from usr/local/sbin to usr/sbin
+
+ -- Walter Kleynscheldt <walter.kleynscheldt@hetzner.co.za>  Wed, 25 Nov 2015 12:34:21 +0200
+
 clamdmon (1.0-1+hetz1~exp9) jessie-hetz-experimental; urgency=low
 
   * Set prefix
