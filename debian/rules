@@ -28,6 +28,6 @@ include /usr/share/dpkg/default.mk
 #	-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH)
 
 override_dh_auto_install:
-	 $(MAKE) DESTDIR=$$(pwd)/debian/clamdmon PREFIX=$(DESTDIR)/usr/local install
+	 $(MAKE) PREFIX=$$(pwd)/debian/clamdmon/usr/local install
 
 
