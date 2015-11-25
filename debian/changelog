@@ -1,3 +1,9 @@
+clamdmon (1.0-1+hetz1~exp2) jessie-hetz-experimental; urgency=low
+
+  * Remove trailing slash from dirs as required
+
+ -- Walter Kleynscheldt <walter.kleynscheldt@hetzner.co.za>  Wed, 25 Nov 2015 11:40:41 +0200
+
 clamdmon (1.0-1+hetz1~exp1) jessie-hetz-experimental; urgency=low
 
   * Initial release
