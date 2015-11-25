@@ -1,0 +1,16 @@
+Source: clamdmon
+Section: utils
+Priority: optional
+Maintainer: Walter Kleynscheldt <walter.kleynscheldt@hetzner.co.za>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Vcs-Git: https://github.com/vrtadmin/clamav-devel.git
+Vcs-Browser: https://github.com/vrtadmin/clamav-devel/tree/master/contrib/clamdmon
+
+Package: clamdmon
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ClamdMon is a little program for checking ClamAV daemon health
+ ClamdMon send to clamd stream, which contain EICAR test signature.
+ If virus found, ClamdMon will return 1, otherwise 0.
+ It's time to verify database integrity or/and restart ClamAV daemon...
