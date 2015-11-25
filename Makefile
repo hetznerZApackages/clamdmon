@@ -2,7 +2,7 @@ CC = gcc
 LIBS = 
 CFLAGS = -O2 -Wall
 INSTALL = install -c
-PREFIX = $(CURDIR)/usr/local
+PREFIX = /usr/local
 SBINDIR = $(PREFIX)/sbin
 
 all: clamdmon

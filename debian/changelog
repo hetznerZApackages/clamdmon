@@ -1,3 +1,9 @@
+clamdmon (1.0-1+hetz1~exp7) jessie-hetz-experimental; urgency=low
+
+  * Modify prefix
+
+ -- Walter Kleynscheldt <walter.kleynscheldt@hetzner.co.za>  Wed, 25 Nov 2015 12:24:09 +0200
+
 clamdmon (1.0-1+hetz1~exp6) jessie-hetz-experimental; urgency=low
 
   * Modified makefile to set prefix path
