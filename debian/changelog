@@ -1,3 +1,9 @@
+clamdmon (1.0-1+hetz1~exp4) jessie-hetz-experimental; urgency=low
+
+  * Still trying to fix pathing issues
+
+ -- Walter Kleynscheldt <walter.kleynscheldt@hetzner.co.za>  Wed, 25 Nov 2015 12:01:02 +0200
+
 clamdmon (1.0-1+hetz1~exp3) jessie-hetz-experimental; urgency=low
 
   * Add rule to install to right place
