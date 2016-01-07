@@ -1,3 +1,9 @@
+clamdmon (1.0-1+hetz3) jessie-hetz; urgency=low
+
+  * Released 1.0-1+hetz3~exp1 as 1.0-1+hetz3
+
+ -- Shaun Bugler - Hetzner (Pty) Ltd <sb@hetzner.co.za>  Thu, 07 Jan 2016 11:51:14 +0200
+
 clamdmon (1.0-1+hetz3~exp1) jessie-hetz-experimental; urgency=low
 
   * Release on i386 
