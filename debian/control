@@ -8,7 +8,7 @@ Vcs-Git: https://github.com/vrtadmin/clamav-devel.git
 Vcs-Browser: https://github.com/vrtadmin/clamav-devel/tree/master/contrib/clamdmon
 
 Package: clamdmon
-Architecture: amd64
+Architecture: i386
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: ClamdMon is a little program for checking ClamAV daemon health
  ClamdMon send to clamd stream, which contain EICAR test signature.
